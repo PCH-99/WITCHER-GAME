@@ -1,0 +1,150 @@
+img {
+  width: 100%;
+  height: auto;
+}
+
+body
+{
+	margin: 0;
+	background-image: url("img/wiedzmak.jpg");
+	background-repeat: no-repeat;
+	background-size: 100vw 100vh;
+	background-color: black;
+	color: #108670;
+    font-family: 'Lobster', sans-serif;
+    font-size: 28px;
+}
+
+a:link    { color: #209781; text-decoration: none; }
+a:visited { color: #209781; }
+a:active  { color: #209781; }
+a:hover   { color: gold; }
+
+span {
+	width: 20vw;
+	margin: 0 auto 0 auto;
+	display: block;
+	font-size: 33px;
+}
+
+span:hover {
+	cursor: pointer;
+	color: gold;
+}
+
+h1 {
+	font-size: 64px;
+	font-weight: 400;
+	text-align: center;
+	letter-spacing: 5px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+p{
+	text-align: center;
+	letter-spacing: 2px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+#level {
+	cursor: default;
+	width: auto;
+	color: #ffff00;
+	display: inline-block;
+}
+
+.board {
+	width: 600px;
+	margin: 0 auto 0 auto;
+	text-align: center;
+}
+
+.winner {
+	width: 600px;
+	margin: 0 auto 0 auto;
+	text-align: center;
+	transition: all .3s ease-in-out;
+	opacity: 0;
+	color: white;
+	letter-spacing: 2px;
+}
+
+.card {
+	width: 125px;
+	height: 125px;
+	display: inline-block;
+	margin: 2px;
+	background-image: url("img/karta.png");
+	border: 3px solid #51c8b2;
+	border-radius: 4px;
+	cursor: pointer;
+	filter: brightness(70%);
+	transition: all .3s ease-in-out;
+	opacity: 0;
+	position: relative;
+}
+
+.card:hover {
+	border: 3px solid gold;
+	filter: brightness(100%);
+}
+
+.card_active {
+	position: relative;
+	width: 125px;
+	height: 125px;
+	display: inline-block;
+	margin: 2px;
+	background-image: url("img/karta.png");
+	border: 3px solid #e9b64a;
+	border-radius: 4px;
+	cursor: default;
+	filter: brightness(100%);
+	transition: all .3s ease-in-out;
+}
+
+.describe {
+	position: absolute;
+	width: 125px;
+	height: 20px;
+	background-color: black;
+	left: 0px;
+	bottom: 0px;
+	opacity: 0;
+	transition: all .3s ease-in-out;
+	font-size: 14px;
+	color: white;
+	letter-spacing: 2px;
+}
+
+.score {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	letter-spacing: 2px;
+	opacity: 0;
+	transition: all .4s ease-in-out;
+}
+
+#start {
+	width: 300px;
+	text-align: center;
+	transition: all .4s ease-in-out;
+}
+
+.timer {
+	position: fixed;
+	left: 100px;
+	top: 135px;
+	width: 330px;
+	transition: all .4s ease-in-out;
+	color: #d12c39;
+	font-size: 35px;
+	font-weight: 500;
+	opacity: 0;
+	letter-spacing: 2px;
+}
+
+
+
